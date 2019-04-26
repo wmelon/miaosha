@@ -36,7 +36,6 @@ public class ItemController extends BaseController{
         if (itemVO == null){
             throw new BusinessException(EmBussinessError.PARAMETER_VALIDATION_ERROR);
         }
-
         return CommonReturnType.create(itemVO);
     }
 
